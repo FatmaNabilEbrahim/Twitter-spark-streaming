@@ -41,8 +41,8 @@ To run the project, follow these steps:
 1. Clone the repository to your local machine.
 2. Modify the `twitter_listener.py` script with your Twitter API credentials and run it to start extracting data from the Twitter API.
 3. Modify the `spark_streaming.py` script with your HDFS path and run it to start processing the data streams.
-4. Modify the `hive_script.sql` script with your database and table names and run it to create the required tables and implement the SCD.
-5. Modify the `fact_processing.py` script with your HDFS paths and run it to generate the processed data table.
+4. Modify the `dimensions_and_facts.sql` script with your database and table names and run it to create the required tables and implement the SCD.
+5. Modify the `dimensions_and_facts.sql` script with your HDFS paths and run it to generate the processed data table.
 
 ## Credits
 
